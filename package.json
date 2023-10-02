@@ -1,8 +1,8 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "First project Andomiele",
-  "main": "index.js",
+  "description": "[First project Andomiele](https://github.com/andomiele/frontend-project-44/actions)",
+  "main": "brain-games.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,8 +15,8 @@
   "bugs": {
     "url": "https://github.com/andomiele/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/andomiele/frontend-project-44#readme"
-  "type": "module"
+  "homepage": "https://github.com/andomiele/frontend-project-44#readme",
+  "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js"
   }
