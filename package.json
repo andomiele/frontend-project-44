@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/andomiele/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/andomiele/frontend-project-44/actions)",
+  "description": "First project Andomiele",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,9 +16,7 @@
     "url": "https://github.com/andomiele/frontend-project-44/issues"
   },
   "homepage": "https://github.com/andomiele/frontend-project-44#readme"
-  {
-    "type": "module"
-  },
+  "type": "module"
   "bin": {
     "brain-games": "bin/brain-games.js"
   }
