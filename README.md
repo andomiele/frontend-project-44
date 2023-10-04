@@ -1,6 +1,17 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/andomiele/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/andomiele/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/64d168d1ce744b9de36e/maintainability)](https://codeclimate.com/github/andomiele/frontend-project-44/maintainability)
+
+<ul>
+<h2>Games</h2>
+
+<li><h3>Brain-calc<h3></li>
+<p>It is necessary to calculate the sum, difference or composition of two numbers</p>
+
+<h4>Starting the game</h4>
+
+<pre>brain-calc</pre>
+
 <h4>Presents</h4>
 <p><a href="https://asciinema.org/a/oTJseoW2fbH4CVEqFRoLa4EJc" target="_blank"><img src="https://asciinema.org/a/oTJseoW2fbH4CVEqFRoLa4EJc.svg" /></a></p>
 
