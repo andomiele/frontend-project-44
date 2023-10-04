@@ -1,24 +1,21 @@
 import readlineSync from 'readline-sync';
-import getrandom from './getrandom.js';
-import brainGame from './cli.js';
+import getrandom from '../getrandom.js';
 
 const even = () => {
-  const number = getrandom();
-  const userName = brainGame();
-  const roundsCount = 3;
-
+  const userName = readlineSync.question('May I have your name?  ');
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  console.log(`Question: ${number}`);
-  const quest = readlineSync.question(`${'\nYour answer: '}`);
 
-  for (let i = 0; i < roundsCount; i += 1) {
-  if ((number % 2 === 0 && quest === 'yes') || (number % 2 !== 0 && quest === 'no')) {
-    console.log('Coorect!');
-  } else {
-    console.log(`${quest} is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`);
-    return;
+  for (let i = 0; i < 3; i += 1) {
+    const number = getrandom();
+    console.log(`Question: ${number}`);
+    const userAnswer = readlineSync.question(`${'\nYour answer: '}`);
+    if ((number % 2 === 0 && userAnswer === 'yes') || (number % 2 !== 0 && userAnswer === 'no')) {
+      console.log('Coorect!');
+    } else {
+      console.log(`${userAnswer} is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`);
+      return;
+    }
   }
-  }
-console.log(`Congratulations, ${userName}!`);
+  console.log(`Congratulations, ${userName}!`);
 };
 export default even;
