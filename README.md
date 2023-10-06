@@ -19,12 +19,12 @@
 <h4>Presents</h4>
 <p><a href="https://asciinema.org/a/E5ffvf1bcysKc8GIn26zcm528" target="_blank"><img src="https://asciinema.org/a/E5ffvf1bcysKc8GIn26zcm528.svg" /></a></p>
 
-<li><h3>Brain-<h3></li>
+<li><h3>Brain-gcd-<h3></li>
 <p>It is necessary to determine the greatest common divisor of two numbers</p>
 <h4>Starting the game</h4>
-<pre>brain-</pre>
+<pre>brain-gcd-</pre>
 <h4>Presents</h4>
-<p></p>
+<p><a href="https://asciinema.org/a/P4CiXHwXHITcNJn5Qm7In8fpf" target="_blank"><img src="https://asciinema.org/a/P4CiXHwXHITcNJn5Qm7In8fpf.svg" /></a></p>
 
 <li><h3>Brain-<h3></li>
 <p>It is necessary to determine whether the number is prime</p>
