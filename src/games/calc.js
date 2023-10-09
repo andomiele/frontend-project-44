@@ -10,11 +10,11 @@ const calc = () => {
   const operatorArray = ['+', '-', '*'];
 
   for (let i = 0; i < 3; i += 1) {
-    const num1 = getrandom(0, 10);
-    const num2 = getrandom(0, 10);
+    const number1 = getrandom(0, 10);
+    const number2 = getrandom(0, 10);
     const index = getrandom(0, 3);
-    const operator = operatorArray[index];
-    const question = (`${num1} ${operator} ${num2}`);
+    const randomOperator = operatorArray[index];
+    const question = (`${number1} ${randomOperator} ${number2}`);
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question(`${'\nYour answer: '}`);
 
