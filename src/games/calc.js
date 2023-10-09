@@ -17,16 +17,16 @@ const calc = () => {
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question(`${'\nYour answer: '}`);
 
-    const calculation = (number1, number2, randomOperator) => {
+    const calculation = (num1, num2, operator) => {
       switch (randomOperator) {
         case '+':
-          return number1 + number2;
+          return num1 + num2;
         case '-':
-          return number1 - number2;
+          return num1 - num2;
         case '*':
-          return number1 * number2;
+          return num1 * num2;
         default:
-          throw new Error(`Unkown order state: '${randomOperator}'!`);
+          throw new Error(`Unkown order state: '${operator}'!`);
       }
     };
     const answer = calculation(number1, number2, randomOperator);
