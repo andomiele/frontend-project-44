@@ -26,10 +26,10 @@
 <h4>Presents</h4>
 <p><a href="https://asciinema.org/a/P4CiXHwXHITcNJn5Qm7In8fpf" target="_blank"><img src="https://asciinema.org/a/P4CiXHwXHITcNJn5Qm7In8fpf.svg" /></a></p>
 
-<li><h3>Brain-<h3></li>
-<p>It is necessary to determine whether the number is prime</p>
+<li><h3>Brain-progression<h3></li>
+<p>It is necessary to determine number is missing in the progression</p>
 <h4>Starting the game</h4>
-<pre>brain-</pre>
+<pre>brain-progression</pre>
 <h4>Presents</h4>
-<p><a href="https://asciinema.org/a/544887" target="_blank"><img src="https://asciinema.org/a/544887.svg" /></a></p>
+<p><a href="https://asciinema.org/a/bRzmnCzlSePdNHzAg0sHpDbot" target="_blank"><img src="https://asciinema.org/a/bRzmnCzlSePdNHzAg0sHpDbot.svg" /></a></p>
 </ul>
