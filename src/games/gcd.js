@@ -12,7 +12,7 @@ const gcd = () => {
   const userName = readlineSync.question('May I have your name?  ');
   console.log(`${'Hello,'} ${userName}${'!'}`);
   console.log('Find the greatest common divisor of given numbers.');
-  for (let i = 0; i < 3; i += 1) { 
+  for (let i = 0; i < 3; i += 1) {
     const num1 = getrandom(0, 10);
     const num2 = getrandom(0, 10);
     const str = '';

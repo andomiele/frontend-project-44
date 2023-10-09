@@ -21,11 +21,10 @@ const progression = () => {
     const step = getrandom(1, 10);
     const progressionLength = getrandom(5, 10);
 
-
     const correctArr = calculation(firstNumber, step, progressionLength);
     const randomIndex = getrandom(1, correctArr.length);
     const safeIndex = correctArr[randomIndex];
-    correctArr[randomIndex] = '..'; 
+    correctArr[randomIndex] = '..';
 
     const question = `${correctArr.join(' ')}`;
     console.log(`Question: ${question}`);
