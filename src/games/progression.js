@@ -27,7 +27,7 @@ const progression = () => {
     const safeIndex = correctArr[randomIndex];
     correctArr[randomIndex] = '..'; 
 
-    const question = (`${correctArr}`);
+    const question = `${correctArr.join(' ')}`;
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question(`${'\nYour answer: '}`);
     const correctAnswer = String(safeIndex);
