@@ -19,7 +19,7 @@ const progression = () => {
   for (let j = 0; j < 3; j += 1) {
     const firstNumber = getrandom(0, 10);
     const step = getrandom(1, 10);
-    const progressionLength = 3;
+    const progressionLength = getrandom(5, 10);
 
 
     const correctArr = calculation(firstNumber, step, progressionLength);
