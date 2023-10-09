@@ -32,4 +32,11 @@
 <pre>brain-progression</pre>
 <h4>Presents</h4>
 <p><a href="https://asciinema.org/a/bRzmnCzlSePdNHzAg0sHpDbot" target="_blank"><img src="https://asciinema.org/a/bRzmnCzlSePdNHzAg0sHpDbot.svg" /></a></p>
+
+<li><h3>Brain-prime<h3></li>
+<p>It is necessary to determine if given number is prime</p>
+<h4>Starting the game</h4>
+<pre>brain-prime</pre>
+<h4>Presents</h4>
+<p><a href="https://asciinema.org/a/y0YihgHBJYlhVWZ1qpsiGT7BA" target="_blank"><img src="https://asciinema.org/a/y0YihgHBJYlhVWZ1qpsiGT7BA.svg" /></a></p>
 </ul>

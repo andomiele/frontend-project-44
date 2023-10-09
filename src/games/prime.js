@@ -17,7 +17,7 @@ const prime = () => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name?  ');
   console.log(`${'Hello,'} ${userName}${'!'}`);
-  console.log('What number is missing in the progression?');
+  console.log('Answer "yes" if given number is prime. Otherwise answer "no"');
 
   for (let j = 0; j < 3; j += 1) {
     const number = getrandom(0, 10);
