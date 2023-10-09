@@ -2,9 +2,7 @@ import readlineSync from 'readline-sync';
 import getrandom from '../getrandom.js';
 
 const calc = () => {
-
   console.log('Welcome to the Brain Games!');
-  
   const userName = readlineSync.question('May I have your name?  ');
   console.log(`${'Hello,'} ${userName}${'!'}`);
   console.log('What is the result of the expression?');
@@ -41,4 +39,5 @@ const calc = () => {
   }
   console.log(`Congratulations, ${userName}!`);
 };
+
 export default calc;
