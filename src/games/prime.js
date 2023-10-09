@@ -7,7 +7,7 @@ const calculation = (number) => {
   }
   for (let i = 2; i < number; i += 1) {
     if (number % i === 0) {
-      return 'no'
+      return 'no';
     }
   }
   return 'yes';
@@ -21,7 +21,7 @@ const prime = () => {
 
   for (let j = 0; j < 3; j += 1) {
     const number = getrandom(0, 10);
-    const correctNum = calculation(number)
+    const correctNum = calculation(number);
     const question = (`${number}`);
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question(`${'\nYour answer: '}`);
