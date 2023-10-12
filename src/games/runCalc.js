@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import getrandom from '../getrandom.js';
 
-const calc = () => {
+const runCalc = () => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name?  ');
   console.log(`${'Hello,'} ${userName}${'!'}`);
@@ -40,4 +40,4 @@ const calc = () => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export default calc;
+export default runCalc;

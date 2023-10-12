@@ -10,7 +10,7 @@ const calculation = (firstNumber, step, progressionLength) => {
   return arrow;
 };
 
-const progression = () => {
+const runProgression = () => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name?  ');
   console.log(`${'Hello,'} ${userName}${'!'}`);
@@ -40,4 +40,4 @@ const progression = () => {
   }
   console.log(`Congratulations, ${userName}!`);
 };
-export default progression;
+export default runProgression;
