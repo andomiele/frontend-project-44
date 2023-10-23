@@ -1,43 +1,28 @@
-import readlineSync from 'readline-sync';
-import getrandom from '../getrandom.js';
+import getRandomNumber from '../utils.js';
+import runGame from '../index.js'
 
-const calculation = (firstNumber, step, progressionLength) => {
-  const arrow = [];
-  arrow[0] = firstNumber;
-  for (let i = 1; i <= progressionLength; i += 1) {
-    arrow[i] = arrow[i - 1] + step;
+const description = 'What number is missing in the progression?';
+
+const calculation = (first, step, length) => {
+  const progression = [];
+  progression[0] = first;
+  for (let i = 1; i <= length; i += 1) {
+    progression[i] = progression[i - 1] + step;
   }
-  return arrow;
+  return progression;
 };
 
 const runProgression = () => {
-  console.log('Welcome to the Brain Games!');
-  const userName = readlineSync.question('May I have your name?  ');
-  console.log(`${'Hello,'} ${userName}${'!'}`);
-  console.log('What number is missing in the progression?');
+    const first = getRandomNumber(0, 10);
+    const step = getRandomNumber(1, 10);
+    const length = getRandomNumber(5, 10);
 
-  for (let j = 0; j < 3; j += 1) {
-    const firstNumber = getrandom(0, 10);
-    const step = getrandom(1, 10);
-    const progressionLength = getrandom(5, 10);
+    const correctProgression = calculation(first, step, length);
+    const randomIndex = getRandomNumber(1, correctProgression.length);
+    const answer = correctProgression[randomIndex];
+    correctProgression[randomIndex] = '..';
+    const question = `${correctProgression.join(' ')}`;
+    return [question, answer];
 
-    const correctArr = calculation(firstNumber, step, progressionLength);
-    const randomIndex = getrandom(1, correctArr.length);
-    const safeIndex = correctArr[randomIndex];
-    correctArr[randomIndex] = '..';
-
-    const question = `${correctArr.join(' ')}`;
-    console.log(`Question: ${question}`);
-    const userAnswer = readlineSync.question(`${'\nYour answer: '}`);
-    const correctAnswer = String(safeIndex);
-
-    if (userAnswer === correctAnswer) {
-      console.log('Correct!');
-    } else {
-      console.log(`${userAnswer}${' is wrong answer ;(. Correct answer was '}${correctAnswer}${"\nLet's try again"}, ${userName}!`);
-      return;
-    }
-  }
-  console.log(`Congratulations, ${userName}!`);
 };
-export default runProgression;
+export default () => runGame(description, runProgression);

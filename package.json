@@ -24,13 +24,14 @@
     "brain-gcd": "bin/brain-gcd.js",
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
-
   },
   "dependencies": {
+    "latest": "^0.2.0",
+    "n": "^9.2.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "eslint": "^8.50.0",
+    "eslint": "^8.51.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.28.1"
   }
