@@ -23,7 +23,8 @@ const runCalc = () => {
   const operators = ['+', '-', '*'];
   const operator = operators[index];
   const question = (`${num1} ${operator} ${num2}`);
-  const answer = calculation(num1, num2, operator);
+  const answerNum = calculation(num1, num2, operator);
+  const answer = answerNum.toString();
   return [question, answer];
 };
 

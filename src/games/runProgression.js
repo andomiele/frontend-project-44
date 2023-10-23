@@ -14,12 +14,13 @@ const calculation = (first, step, length) => {
 
 const runProgression = () => {
   const first = getRandomNumber(0, 10);
-  const step = getRandomNumber(1, 10);
-  const length = getRandomNumber(5, 10);
+  const step = getRandomNumber(2, 10);
+  const length = getRandomNumber(6, 8);
 
   const correctProgression = calculation(first, step, length);
   const randomIndex = getRandomNumber(1, correctProgression.length);
-  const answer = correctProgression[randomIndex];
+  const answerNum = correctProgression[randomIndex];
+  const answer = answerNum.toString();
   correctProgression[randomIndex] = '..';
   const question = `${correctProgression.join(' ')}`;
   return [question, answer];

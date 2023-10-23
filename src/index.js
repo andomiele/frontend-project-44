@@ -10,7 +10,7 @@ const runGame = (description, tasks) => {
   const roundsCount = 3;
   for (let i = 0; i < roundsCount; i += 1) {
     const [question, answer] = tasks();
-    const correctAnswer = answer.toString();
+    const correctAnswer = answer;
 
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
