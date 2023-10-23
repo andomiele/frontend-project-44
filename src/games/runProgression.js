@@ -15,7 +15,7 @@ const calculation = (first, step, length) => {
 const runProgression = () => {
   const first = getRandomNumber(0, 10);
   const step = getRandomNumber(2, 10);
-  const length = getRandomNumber(6, 8);
+  const length = getRandomNumber(7, 10);
 
   const correctProgression = calculation(first, step, length);
   const randomIndex = getRandomNumber(1, correctProgression.length);
