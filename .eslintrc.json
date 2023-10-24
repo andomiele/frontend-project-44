@@ -9,6 +9,12 @@
         "ecmaVersion": "latest"
     },
     "rules": {
-        "no-console": "off"
+        "no-console": "off",
+        "semi": ["error", "never"], 
+        "object-curly-spacing": ["error", "always"],
+        "array-bracket-spacing": ["error", "never"],
+        "linebreak-style": ["error", "unix"],
+        "no-trailing-spaces": "error",
+        "camelcase": "error"
     }
 }
