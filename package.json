@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[First project Andomiele](https://github.com/andomiele/frontend-project-44/actions)",
+  "description": "Implementation of the 'mind games' project, it was necessary to create 5 games in it.",
   "main": "brain-games.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,8 +26,6 @@
     "brain-prime": "bin/brain-prime.js"
   },
   "dependencies": {
-    "latest": "^0.2.0",
-    "n": "^9.2.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {

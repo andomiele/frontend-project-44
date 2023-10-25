@@ -1,9 +1,11 @@
 import getRandomNumber from '../utils.js';
-import runGame from '../index.js';
+import getTask from '../index.js';
 
 const description = 'What is the result of the expression?';
 
-const calculation = (num1, num2, operator) => {
+export const operators = ['+', '-', '*'];
+
+const calculate = (num1, num2, operator) => {
   switch (operator) {
     case '+':
       return num1 + num2;
@@ -16,16 +18,22 @@ const calculation = (num1, num2, operator) => {
   }
 };
 
-const runCalc = () => {
+const getRandomSign = () => {
+  const randomIndex = Math.floor(Math.random() * operators.length);
+  const randomSign = operators[randomIndex];
+  return randomSign;
+}
+
+const getGameRounds = () => {
   const num1 = getRandomNumber(0, 10);
   const num2 = getRandomNumber(0, 10);
-  const index = getRandomNumber(0, 2);
-  const operators = ['+', '-', '*'];
-  const operator = operators[index];
+  const operator = getRandomSign();
   const question = (`${num1} ${operator} ${num2}`);
-  const answerNum = calculation(num1, num2, operator);
-  const answer = answerNum.toString();
+  const answer = calculate(num1, num2, operator).toString();
   return [question, answer];
 };
 
-export default () => runGame(description, runCalc);
+const runCalc = () => {
+  getTask(description, getGameRounds)
+};
+export default runCalc;
