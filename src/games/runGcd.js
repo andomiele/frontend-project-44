@@ -23,6 +23,6 @@ const getGameRounds = () => {
 };
 
 const runGcd = () => {
-  getTask(description, getGameRounds)
+  getTask(description, getGameRounds);
 };
 export default runGcd;

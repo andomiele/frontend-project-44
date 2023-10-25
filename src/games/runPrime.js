@@ -24,6 +24,6 @@ const getGameRounds = () => {
 };
 
 const runPrime = () => {
-  getTask(description, getGameRounds)
+  getTask(description, getGameRounds);
 };
 export default runPrime;

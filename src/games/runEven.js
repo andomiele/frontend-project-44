@@ -13,6 +13,6 @@ const getGameRounds = () => {
 };
 
 const runEven = () => {
-  getTask(description, getGameRounds)
+  getTask(description, getGameRounds);
 };
 export default runEven;

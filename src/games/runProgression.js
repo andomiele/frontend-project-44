@@ -25,6 +25,6 @@ const getGameRounds = () => {
 };
 
 const runProgression = () => {
-  getTask(description, getGameRounds)
+  getTask(description, getGameRounds);
 };
 export default runProgression;

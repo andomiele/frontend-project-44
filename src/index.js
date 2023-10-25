@@ -9,7 +9,6 @@ const getTask = (description, tasks) => {
   console.log(`Hello, ${userName}!`);
   console.log(description);
 
-
   for (let i = 0; i < roundsCount; i += 1) {
     const [question, answer] = tasks();
 

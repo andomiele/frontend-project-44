@@ -22,7 +22,7 @@ const getRandomSign = () => {
   const randomIndex = Math.floor(Math.random() * operators.length);
   const randomSign = operators[randomIndex];
   return randomSign;
-}
+};
 
 const getGameRounds = () => {
   const num1 = getRandomNumber(0, 10);
@@ -34,6 +34,6 @@ const getGameRounds = () => {
 };
 
 const runCalc = () => {
-  getTask(description, getGameRounds)
+  getTask(description, getGameRounds);
 };
 export default runCalc;
