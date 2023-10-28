@@ -4,7 +4,7 @@ import runGame from '../index.js';
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no"';
 
 const isPrime = (num) => {
-  const  limit = Math.sqrt(num);
+  const limit = Math.sqrt(num);
   if (num < 2) {
     return false;
   }
