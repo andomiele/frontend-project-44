@@ -1,5 +1,5 @@
 import getRandomNumber from '../utils.js';
-import getTask from '../index.js';
+import runGame from '../index.js';
 
 const description = 'What is the result of the expression?';
 
@@ -24,7 +24,7 @@ const getRandomSign = () => {
   return randomSign;
 };
 
-const getGameRounds = () => {
+const getGameRound = () => {
   const num1 = getRandomNumber(0, 10);
   const num2 = getRandomNumber(0, 10);
   const operator = getRandomSign();
@@ -34,6 +34,6 @@ const getGameRounds = () => {
 };
 
 const runCalc = () => {
-  getTask(description, getGameRounds);
+  runGame(description, getGameRound);
 };
 export default runCalc;

@@ -44,7 +44,7 @@ brain-progression
 <h4>Starting the game</h4>
 <pre>brain-even</pre>
 <h4>Presents</h4>
-<p><a href="https://asciinema.org/a/v0JwvM5hqRIY1o7bllGWAz4nG" target="_blank"><img src="https://asciinema.org/a/v0JwvM5hqRIY1o7bllGWAz4nG.svg" /></a></p>
+<p><a href="https://asciinema.org/a/7sZHBBZKjYSwP79DrTA7KmJh4" target="_blank"><img src="https://asciinema.org/a/7sZHBBZKjYSwP79DrTA7KmJh4.svg" /></a></p>
 
 ### Калькулятор. brain-calc
 <li><h3>Brain-calc<h3></li>
@@ -52,7 +52,7 @@ brain-progression
 <h4>Starting the game</h4>
 <pre>brain-calc</pre>
 <h4>Presents</h4>
-<p><a href="https://asciinema.org/a/E5ffvf1bcysKc8GIn26zcm528" target="_blank"><img src="https://asciinema.org/a/E5ffvf1bcysKc8GIn26zcm528.svg" /></a></p>
+<p><a href="https://asciinema.org/a/5ZQbyYOr219rLwbKuw4SdI7fE" target="_blank"><img src="https://asciinema.org/a/5ZQbyYOr219rLwbKuw4SdI7fE.svg" /></a></p>
 
 ### Определение наибольшего общего делителя. brain-gcd
 <li><h3>Brain-gcd-<h3></li>
@@ -60,7 +60,7 @@ brain-progression
 <h4>Starting the game</h4>
 <pre>brain-gcd-</pre>
 <h4>Presents</h4>
-<p><a href="https://asciinema.org/a/P4CiXHwXHITcNJn5Qm7In8fpf" target="_blank"><img src="https://asciinema.org/a/P4CiXHwXHITcNJn5Qm7In8fpf.svg" /></a></p>
+<p><a href="https://asciinema.org/a/QUSawxpXxmKUgSAb8qI0c12hi" target="_blank"><img src="https://asciinema.org/a/QUSawxpXxmKUgSAb8qI0c12hi.svg" /></a></p>
 
 ### Определение простого числа. brain-prime
 <li><h3>Brain-prime<h3></li>
@@ -68,7 +68,7 @@ brain-progression
 <h4>Starting the game</h4>
 <pre>brain-prime</pre>
 <h4>Presents</h4>
-<p><a href="https://asciinema.org/a/y0YihgHBJYlhVWZ1qpsiGT7BA" target="_blank"><img src="https://asciinema.org/a/y0YihgHBJYlhVWZ1qpsiGT7BA.svg" /></a></p>
+<p><a href="https://asciinema.org/a/KcCkbSVDqc8jzryle2YnHIvpJ" target="_blank"><img src="https://asciinema.org/a/KcCkbSVDqc8jzryle2YnHIvpJ.svg" /></a></p>
 
 ### Арифметическая прогрессия. brain-progression
 <li><h3>Brain-progression<h3></li>
@@ -76,5 +76,5 @@ brain-progression
 <h4>Starting the game</h4>
 <pre>brain-progression</pre>
 <h4>Presents</h4>
-<p><a href="https://asciinema.org/a/bRzmnCzlSePdNHzAg0sHpDbot" target="_blank"><img src="https://asciinema.org/a/bRzmnCzlSePdNHzAg0sHpDbot.svg" /></a></p>
+<p><a href="https://asciinema.org/a/oNET7T1b8gVpJiZUhBjJRGs9X" target="_blank"><img src="https://asciinema.org/a/oNET7T1b8gVpJiZUhBjJRGs9X.svg" /></a></p>
 </ul>
