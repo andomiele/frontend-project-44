@@ -28,7 +28,7 @@ const getGameRound = () => {
   const num1 = getRandomNumber(0, 10);
   const num2 = getRandomNumber(0, 10);
   const operator = getRandomSign();
-  const question = (`${num1} ${operator} ${num2}`);
+  const question = `${num1} ${operator} ${num2}`;
   const answer = calculate(num1, num2, operator).toString();
   return [question, answer];
 };

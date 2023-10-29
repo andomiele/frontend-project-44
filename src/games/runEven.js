@@ -7,7 +7,7 @@ export const isEven = (num) => num % 2 === 0;
 
 const getGameRound = () => {
   const num = getRandomNumber(0, 10);
-  const question = num;
+  const question = num.toString();
   const answer = isEven(num) ? 'yes' : 'no';
   return [question, answer];
 };
